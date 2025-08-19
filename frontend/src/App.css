@@ -1,0 +1,43 @@
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1f2937; /* gray-800 */
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #4b5563; /* gray-600 */
+    border-radius: 10px;
+  }
+  
+
+  
+/* Hide scrollbar but keep scroll functionality */
+.custom-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#chart {
+  max-width: 760px;
+  margin: 35px auto;
+  opacity: 0.9;
+}
+
+#timeline-chart .apexcharts-toolbar {
+  opacity: 1;
+  border: 0;
+}
+
+.apexcharts-tooltip {
+  background: #f3f3f3;
+  color: purple;
+}
